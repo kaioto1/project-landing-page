@@ -11,8 +11,83 @@ html {
     padding: 0;
   }
 
-
 body {
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
 }
+
+:root {
+    --dark: #1f2937;
+    --primary-text: #f9faf8;
+    --secondary-text: #e5e7eb;
+    --light-blue: #3882f6;
+    --tertiary: #e5e7eb;
+}
+
+button {
+    background-color: var(--light-blue);
+    color: var(--primary-text);
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-outline {
+    border: 1px solid var(--primary-text);
+}
+
+.dark-bg {
+    background-color: var(--dark);
+}
+
+li a, header p {
+    font-size: 18px;
+    color: var(--secondary-text);
+    }
+    
+.logo {
+    color: var(--primary-text);
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--primary-text);
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    color: var(--dark);
+    font-weight: 900;
+}
+
+.quote {
+    background-color: var(--secondary-text);
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 100;
+    color: var(--dark);
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+section.cta {
+    background-color: var(--light-blue);
+    color: var(--primary-text);
+}
+
