@@ -9,29 +9,30 @@
 </head>
 <body>
     <header class="dark-bg">
-        <nav>
+        <nav class="flex">
             <div class="logo">Header Logo</div>
-            <ul>
+            <ul class="flex">
                 <li><a href="">header link one</a></li>
                 <li><a href="">header link two</a></li>
                 <li><a href="">header link three</a></li>
             </ul>
         </nav>
 
-        <div class="container">
+        <div class="hero flex">
             <div class="container">
                 <h1>This website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos excepturi dignissimos tempore! Numquam illum nemo aliquam ullam minima porro quisquam eos culpa at repellendus, accusantium, soluta laborum ad! Suscipit, officia.</p>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+                    contrast</p>
                 <button>Sign up</button>
             </div>
-            <img src="" alt="">
+            <img src="assets/header-placeholder.svg" alt="Header illustration">
         </div>
     </header>
 
     <main>
-        <section>
+        <section class="information">
             <h2>Some random information.</h2>
-            <div class="cards-container">
+            <div class="cards-container flex">
                 <div class="card">
                     <img src="assets/placeholder1.svg" alt="Circular design element">
                     <p>This is some subtext under an illustration or image</p>
@@ -52,16 +53,19 @@
         </section>
 
         <section class="quote">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non possimus voluptate accusantium corrupti unde provident veritatis eaque iusto labore aspernatur. Nostrum et quo temporibus enim distinctio mollitia veniam eos! Necessitatibus.</p>
-            <div class="author">
-                -Thor, God of Thunder
+            <div class="container">
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know
+                    is that it looks nice.</p>
+                <div class="author">
+                    -Thor, God of Thunder
+                </div>
             </div>
         </section>
 
-        <section class="cta">
+        <section class="cta flex">
             <div>
                 <h3>Call to action! It's time!</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quis excepturi tempora placeat expedita.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <button class="btn-outline">
                 Sign up
@@ -70,7 +74,7 @@
     </main>
 
     <footer class="dark-bg">
-        Copyright &copy; kaioto1 2025-today
+        Copyright &copy; kaioto1 2025
     </footer>
 </body>
 </html>

@@ -11,6 +11,7 @@ html {
     padding: 0;
   }
 
+/* base styles */
 body {
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
@@ -57,6 +58,7 @@ ul {
 
 ul li a {
     text-decoration: none;
+    color: var(--tertiary);
 }
 
 h1 {
@@ -69,6 +71,11 @@ h2 {
     font-size: 36px;
     color: var(--dark);
     font-weight: 900;
+    margin-bottom: 24px;
+}
+
+p {
+    margin-bottom: 16px;
 }
 
 .quote {
@@ -91,3 +98,99 @@ section.cta {
     color: var(--primary-text);
 }
 
+footer {
+    color: var(--secondary-text);
+}
+
+.flex {
+    display: flex;
+}
+
+/* navigation */
+nav {
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+nav ul {
+    align-items: center;
+    gap: 24px;
+}
+
+/* header */
+nav, .hero{
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.hero {
+    padding: 100px 0;
+    gap: 50px;
+}
+
+/* information section */
+.information {
+    text-align: center;
+    padding: 100px;
+}
+
+.cards-container {
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 24px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.card p {
+    width: 100%;
+}
+
+/* quote section */
+.quote {
+    padding: 100px;
+}
+
+.quote .container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.quote .author {
+    text-align: right;
+}
+
+/* cta section */
+section.cta {
+    margin: 100px;
+    padding: 36px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+section.cta button {
+    display: inline;
+}
+
+/* footer */
+footer {
+    padding: 36px;
+    text-align: center;
+}
