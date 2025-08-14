@@ -119,7 +119,7 @@ nav ul {
 
 /* header */
 nav, .hero{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     align-items: center;
 }
@@ -136,9 +136,9 @@ nav, .hero{
 }
 
 .cards-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -169,7 +169,7 @@ nav, .hero{
 
 .quote .container {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .quote .author {
@@ -180,14 +180,20 @@ nav, .hero{
 section.cta {
     margin: 100px;
     padding: 36px 0;
-    justify-content: space-evenly;
+}
+
+section.cta .container {
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
 }
 
 section.cta button {
     display: inline;
 }
+
+
 
 /* footer */
 footer {
